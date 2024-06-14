@@ -19,11 +19,12 @@ nav{
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #EAE8F3;
-    padding: 1.2vmax 2.5vmax;
+    padding: 0 2.5vmax;
+    height: 5.6vw;
 }
 
 nav .logo{
-    height: 40px;
+    height: 45%;
     padding-right: 6.6vmax;
 }
 
@@ -40,7 +41,7 @@ nav a{
 
 nav button{
 background-color: white;
-padding: 1.1vmax 1.8vmax;
+padding: 1.1vw 1.8vw;
 border: none;
 border-radius: 5px;
 }
@@ -54,18 +55,18 @@ nav .signup a{
 }
 
 nav i{
-    height: 4vmax;
     display: flex;
     align-items: center;
-    font-size: 30px;
+    /* font-size: 190%; */
+    font-size: 5vw;
     font-weight: 600;
     display: none;
 }
 
 @media (max-width:800px) {
-    nav .logo{
-        height: 4vmax;
-    }
+   nav{
+    height: 12vw;
+   }
 
     nav i{
         display: block;
@@ -123,7 +124,6 @@ nav i{
         margin-bottom: 4vw;
         font-weight: 400;
     }
-
 
     .text .buy{
         display: flex;
