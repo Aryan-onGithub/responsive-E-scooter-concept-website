@@ -6,6 +6,7 @@
     color: #42454A;
     font-family: "Ubuntu", sans-serif;
     caret-color: transparent;
+    overflow-x: hidden;
 }
 
 /* nav */
