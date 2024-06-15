@@ -6,7 +6,6 @@
     color: #42454A;
     font-family: "Ubuntu", sans-serif;
     caret-color: transparent;
-    overflow-x: hidden;
 }
 
 /* nav */
@@ -307,7 +306,9 @@ nav i{
     width: 60vw;
 }
 
-
+.ofx{
+    overflow-x: hidden;
+}
 
 
 
