@@ -350,9 +350,6 @@ nav i{
 
 /* team page */
 
-.teampage{
-    height: 100vh;
-}
 
 .cards .star i{
     color: #FE8B75;
@@ -437,4 +434,107 @@ border-radius: 60px;
         font-size: 3.2vw;
     }
 
+}
+
+/* footer  */
+
+
+.footer .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+
+
+.footer .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .8em;
+    gap: .5vw;
+}
+
+.footer p{
+    font-size: .6em;
+}
+
+.footer .enter{
+    display: flex;
+    height: 3.8vw;
+    gap: .5vw;
+}
+
+.footer input{
+    border: 1px solid #d8d8d859;
+    background-color: #F5F5F5;
+    aspect-ratio: 4.938271604938272;
+    height: inherit;
+    padding: 1vw;
+    box-sizing: border-box;
+    border-radius: 5px
+}
+
+.footer button{
+    aspect-ratio: 2.419753086419753;
+    height: inherit;
+    border: none;
+    background-color: #42454A;
+    border-radius: 5px;
+    font-size: 1.2vw;
+    color: white;
+}
+
+.footer a{
+    color: white; 
+}
+
+
+.bottom .right{
+    display: flex;
+    gap: 6vw;
+    align-self: flex-end;
+}
+
+.bottom .right h1{
+    color: white;
+    font-size: 1em;
+}
+
+.align{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.footer .bottom{
+    background-image: linear-gradient(to bottom, white 16%, #42454A 0);
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+}
+
+.selfcenter{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom a{
+    font-size: .6em;
+}
+
+@media (max-width:800px) {
+.bottom img{
+    height: 60vw;
+}
+
+.top{
+    font-size: 4vw;
+}
+.footer .enter{
+    height: 8vw;
+}
 }
