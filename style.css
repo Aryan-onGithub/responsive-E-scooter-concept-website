@@ -347,3 +347,94 @@ nav i{
         font-size: 3.2vw;
     }
 }
+
+/* team page */
+
+.teampage{
+    height: 100vh;
+}
+
+.cards .star i{
+    color: #FE8B75;
+}
+
+.cards{
+    height: 22.75vmax;
+    aspect-ratio: 22.4 / 22.75;
+    border: 1px solid #D8D8D8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25vmax;
+    padding: 3vw 0;
+    box-sizing: border-box;
+    transition: box-shadow .3s;
+}
+
+.cards:hover{
+    box-shadow: 2px 11px 20px #80808059;
+}
+
+.founders .text{
+    /* height: 9vw;
+    width: 19vw; */
+    /* border: 1px solid; */
+    padding: 0 3vw;
+    text-align: center;
+    font-size: .95em;
+    font-weight: 300;
+}
+
+
+.person .name{
+    font-size: .75em;
+    font-weight: 500;
+}
+
+.person .post{
+    font-size: .8em;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5vw;
+}
+
+.cont2{
+    height: inherit;
+    display: flex;
+}
+.person{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    align-self: flex-end;
+}
+
+.founders{
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    padding: 4vw 0;
+    /* flex-wrap: wrap; */
+}
+
+.person .myimg{
+height: 50px;
+border-radius: 60px;
+}
+
+@media (max-width: 800px) {
+    .founders{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cards{
+        height: 50vw;
+        font-size: 3.2vw;
+    }
+
+}
